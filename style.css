@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.card {
+    margin: 20px;
+    width: 437px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.top {
+
+    margin: 20px 0px;
+    width: 437px;
+    height: 250px;
+    background-image: linear-gradient(to top, #062039c3, #06213917), url(/assets/bg.jpg);
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 14px;
+
+
+
+    .media svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        color: rgba(255, 255, 255, 0.882);
+
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h4 {
+            font-size: 10px;
+            letter-spacing: 3px;
+            margin-top: -5px;
+            font-weight: 500;
+        }
+    }
+}
+
+
+
+.bottom .data {
+    margin: 50px 0px 0px 50px;
+    position: absolute;
+    padding-right: 140px;
+}
+
+.neon{
+    width: 1.5px;
+    height: 170px;
+    background-color: #0ef;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px #0ef, inset 0px 0px 40px #0ef;
+    position: absolute;
+    left: 330px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bottom {
+    height: 250px;
+    width: 437px;
+    margin: 20px 0px;
+    background-image: linear-gradient(to top, #062039c3, #06213964), url(/bg.jpg);
+    background-position: center center;
+    background-size: contain;
+    border-radius: 14px;
+
+    .text2 {
+        color: rgba(255, 255, 255, 0.882);
+
+        h1 {
+            font-size: 25px;
+            font-weight: 600;
+
+            span {
+                font-weight: 400;
+            }
+        }
+
+        h3 {
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: -2px;
+        }
+    }
+
+    .details {
+        margin-top: 25px;
+        color: rgba(255, 255, 255, 0.882);
+
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+
+            li {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 10px;
+
+
+                svg {
+                    width: 15px;
+                    height: 15px;
+                }
+
+                span {
+                    font-size: 11px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
