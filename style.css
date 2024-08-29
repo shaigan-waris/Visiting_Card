@@ -29,7 +29,7 @@ html {
     margin: 20px 0px;
     width: 437px;
     height: 250px;
-    background-image: linear-gradient(to top, #062039c3, #06213917), url(/assets/bg.jpg);
+    background-image: linear-gradient(to top, #062039c3, #06213917), url(/bg.jpg);
     background-position: center center;
     background-size: contain;
     display: flex;
